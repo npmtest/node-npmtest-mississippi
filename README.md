@@ -1,6 +1,6 @@
 # npmtest-mississippi
 
-#### test coverage for  [mississippi (v1.3.0)](https://github.com/maxogden/mississippi#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mississippi.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mississippi) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mississippi.svg)](https://travis-ci.org/npmtest/node-npmtest-mississippi)
+#### basic test coverage for  [mississippi (v1.3.0)](https://github.com/maxogden/mississippi#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mississippi.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mississippi) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mississippi.svg)](https://travis-ci.org/npmtest/node-npmtest-mississippi)
 
 #### a collection of useful streams
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mississippi/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mississippi/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mississippi/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mississippi/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mississippi/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mississippi/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mississippi/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mississippi/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mississippi/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mississippi/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mississippi/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mississippi/build/coverage.html/index.html)
 
@@ -78,7 +78,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.3.0"
+    "version": "1.3.0",
+    "bin": {}
 }
 ```
 
